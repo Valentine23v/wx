@@ -13,7 +13,7 @@
             4: 映射文件resultType必须等于接口方法的返回类型
      -->
 
-    <select id="queryArea" resultType="com.safari.wx.entity.Area">
+    <select id="getArea" resultType="com.safari.wx.entity.Area">
         SELECT
             a.area_id,
             a.area_name,
@@ -26,7 +26,7 @@
         DESC
     </select>
 
-    <select id="queryAreaById" resultType="com.safari.wx.entity.Area">
+    <select id="getAreaById" resultType="com.safari.wx.entity.Area">
         SELECT
         a.area_id,
         a.area_name,
